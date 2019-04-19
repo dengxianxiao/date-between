@@ -1,0 +1,20 @@
+{
+  "name": "date-between",
+  "version": "1.0.0",
+  "description": "two date between year, month, day, hours, minutes, seconds",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dengxianxiao/date-between.git"
+  },
+  "keywords": ["date tools", "two date", "two date between hours"],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dengxianxiao/date-between/issues"
+  },
+  "homepage": "https://github.com/dengxianxiao/date-between#readme"
+}
