@@ -1,6 +1,6 @@
 {
   "name": "date-between",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "two date between year, month, day, hours, minutes, seconds",
   "main": "index.js",
   "scripts": {

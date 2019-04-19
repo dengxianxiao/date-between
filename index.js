@@ -1,5 +1,5 @@
 
-let getDateBetween = function(startDate, endDate) {
+module.exports = function dateBetween(startDate, endDate) {
   if (!(startDate instanceof Date) || !(endDate instanceof Date)) {
     console.error('startDate and endDate expect Date')
   }
@@ -8,30 +8,30 @@ let getDateBetween = function(startDate, endDate) {
 
   // 计算出相差天数
   let days = Math.floor(date3 / (24 * 3600 * 1000))
-  returnObj.Days = days
+  returnObj.days = days
 
   // 计算出相差年数
   let years = Math.floor(days / 365)
-  returnObj.Years = years
+  returnObj.years = years
 
   // 计算相差月数
   let months = Math.floor(days / 30)
-  returnObj.Months = months
+  returnObj.months = months
 
   // 计算出小时数
   let leave1 = date3 % (24 * 3600 * 1000)    //计算天数后剩余的毫秒数
   let hours = Math.floor(leave1 / (3600 * 1000))
-  returnObj.Hours = hours
+  returnObj.hours = hours
 
   // 计算相差分钟数
   let leave2 = leave1 % (3600 * 1000)        //计算小时数后剩余的毫秒数
   let minutes = Math.floor(leave2 / (60 * 1000))
-  returnObj.Minutes = minutes
+  returnObj.minutes = minutes
 
   // 计算相差秒数
   let leave3 = leave2 % (60 * 1000)      //计算分钟数后剩余的毫秒数
   let seconds = Math.round(leave3 / 1000)
-  returnObj.Seconds = seconds
+  returnObj.seconds = seconds
 
   let strTime = ""
   if (years >= 1) {
@@ -52,5 +52,3 @@ let getDateBetween = function(startDate, endDate) {
   returnObj.strTime = strTime;    //帖子,文章,博客发表时间的一种简短表示方法
   return returnObj
 }
-
-module.export.dateBetween = getDateBetween
