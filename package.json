@@ -1,6 +1,6 @@
 {
   "name": "date-between",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "two date between year, month, day, hours, minutes, seconds",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/dengxianxiao/date-between.git"
   },
-  "keywords": ["date tools", "two date", "two date between hours"],
+  "keywords": [
+    "date tools",
+    "two date",
+    "two date between hours"
+  ],
   "author": "",
   "license": "MIT",
   "bugs": {
