@@ -12,7 +12,7 @@
   },
   "keywords": ["date tools", "two date", "two date between hours"],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/dengxianxiao/date-between/issues"
   },

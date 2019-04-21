@@ -1,5 +1,6 @@
+'use strict'
 
-module.exports = function dateBetween(startDate, endDate) {
+module.exports = (startDate, endDate) => {
   if (!(startDate instanceof Date) || !(endDate instanceof Date)) {
     console.error('startDate and endDate expect Date')
   }
